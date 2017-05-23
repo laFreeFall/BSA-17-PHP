@@ -6,6 +6,10 @@ class EmojiGenerator
 {
     public function generate()
     {
-        //TODO: Implement emoji generator using yield
+        $emojis = ['😀', '😃', '😄', '😁', '😆', '😅', '😂'];
+        //Didn't extract emojis to a class private member variable, cause the task was to expand generate() method only
+        foreach($emojis as $emoji) {
+            yield $emoji;
+        }
     }
 }
