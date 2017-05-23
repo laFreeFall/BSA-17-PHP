@@ -3,8 +3,12 @@
 
     use BinaryStudioAcademy\Task3\PokemonPresenter;
 
-    // Good idea is to put your pokemons you implemented before here:
-    $pokemons = [];
+    $pokemons = [
+        new \BinaryStudioAcademy\Task1\Pickachu(),
+        new \BinaryStudioAcademy\Task1\Bulbasaur(),
+        new \BinaryStudioAcademy\Task1\Psyduck(),
+        new \BinaryStudioAcademy\Task1\Slowpoke()
+    ];
 ?>
 
 <!doctype html>
@@ -17,7 +21,6 @@
     <title>Built-in Web Server</title>
 </head>
 <body>
-    <!--Implement your task below-->
     <?php echo (new PokemonPresenter($pokemons))->present(); ?>
 </body>
 </html>
