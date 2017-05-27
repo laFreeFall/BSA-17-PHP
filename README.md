@@ -12,7 +12,7 @@
 - keyword `yield`
 - read about iterators and this concept at all
 
-### Task 2
+### Task 3
 #### What have I learned, remembered and used:
 - deployment PHP built-in local server via console
 - thought about `PokemonPresenter` file goal and concept
